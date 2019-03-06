@@ -1,0 +1,14 @@
+<suite name ="suite" thread-count="3" name="Suite" parallel="tests">
+    <test name="FirstTest" >
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="seleniumgridprac.SampleCodeForMaven"/>
+        </classes>
+    </test> <!-- First Test -->
+    <test name="SecondTest" >
+        <parameter name="browser" value="firefox"/>
+        <classes>
+             <class name="seleniumgridprac.SampleCodeForMaven"/>
+        </classes>
+    </test> <!-- Second Test -->
+</suite> <!-- Suite -->
